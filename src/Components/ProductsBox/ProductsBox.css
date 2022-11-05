@@ -1,0 +1,45 @@
+.productsBox{
+    border: 6px solid rgb(166,166,166);
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.allProducts{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.productCard{
+    background-color: rgb(125, 125, 125);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qtyChange{
+    background-color: rgb(36, 115, 133);
+    display: flex;
+    gap: 15px;
+    font-size: 17px;
+    padding: 3px 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.qtyChange p:nth-child(1), .qtyChange p:nth-child(3){
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+

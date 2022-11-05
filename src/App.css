@@ -1,0 +1,10 @@
+.app{
+    width: 60%;
+    margin: 170px auto;
+    display: flex;
+    gap: 20px;
+}
+
+h3{
+    font-size: 25px;
+}

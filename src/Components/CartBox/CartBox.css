@@ -1,0 +1,18 @@
+.cartBox{
+    border: 6px solid rgb(166,166,166);
+    flex: 1.5;
+    padding: 20px 20px 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.totalPrice{
+    width: 79%;
+    font-weight: 25px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 10px;
+}
